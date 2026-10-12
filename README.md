@@ -20,7 +20,7 @@ Most content lives in YAML files, so an update is usually a one-line edit:
 | Education | `_data/education.yml` |
 | CV | replace `files/KimiaZiaei_CV.pdf` |
 
-To add a photo, put it at `assets/img/profile.jpg` (square, about 400×400) and uncomment `avatar:` in `_config.yml`.
+To change the photo, replace `assets/img/profile.jpg` (square, about 400×400).
 To add LinkedIn or Google Scholar links, uncomment `linkedin:` or `google_scholar:` in `_config.yml`; the sidebar picks them up.
 
 ## Running locally
