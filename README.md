@@ -3,9 +3,7 @@
 Personal academic website of Kimia Ziaei, built with plain [Jekyll](https://jekyllrb.com/) and no theme gem.
 GitHub Pages builds it automatically on every push (Settings → Pages → Source: *Deploy from a branch*, pick the branch, `/ (root)`).
 
-Because the repository is `KimiaZz/KimiaZiaei.github.io`, the site is served at
-https://kimiazz.github.io/KimiaZiaei.github.io/ (`baseurl` in `_config.yml`).
-If the repository is renamed to `KimiaZz.github.io`, set `baseurl: ""` and the site moves to https://kimiazz.github.io/.
+The site is served at https://kimiaziaei.github.io/.
 
 ## Updating content
 
@@ -30,7 +28,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Then open http://localhost:4000/KimiaZiaei.github.io/.
+Then open http://localhost:4000.
 
 ## Structure
 

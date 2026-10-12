@@ -4,11 +4,8 @@ tagline: Industrial Engineering and Economics
 description: >-
   Personal academic website of Kimia Ziaei, Industrial Engineering, Sharif University of Technology.
   Operations research, stochastic modeling, simulation, and applied economics.
-# The repository is KimiaZz/KimiaZiaei.github.io, so GitHub Pages serves it as a project site
-# at https://kimiazz.github.io/KimiaZiaei.github.io/. If the repository is renamed to
-# KimiaZz.github.io, set baseurl to "".
-url: "https://kimiazz.github.io"
-baseurl: "/KimiaZiaei.github.io"
+url: "https://kimiaziaei.github.io"
+baseurl: ""
 lang: en
 
 author:
@@ -21,7 +18,7 @@ author:
   location: Tehran, Iran
   avatar: /assets/img/profile.jpg
   cv: /files/KimiaZiaei_CV.pdf
-  github: KimiaZz
+  github: KimiaZiaei
   # linkedin: your-linkedin-username
   # google_scholar: https://scholar.google.com/citations?user=XXXX
   # orcid: 0000-0000-0000-0000
