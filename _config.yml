@@ -1,0 +1,59 @@
+# Site settings
+title: Kimia Ziaei
+tagline: Industrial Engineering and Economics
+description: >-
+  Personal academic website of Kimia Ziaei, Industrial Engineering, Sharif University of Technology.
+  Operations research, stochastic modeling, simulation, and applied economics.
+# The repository is KimiaZz/KimiaZiaei.github.io, so GitHub Pages serves it as a project site
+# at https://kimiazz.github.io/KimiaZiaei.github.io/. If the repository is renamed to
+# KimiaZz.github.io, set baseurl to "".
+url: "https://kimiazz.github.io"
+baseurl: "/KimiaZiaei.github.io"
+lang: en
+
+author:
+  name: Kimia Ziaei
+  email: kimia.8102.z@gmail.com
+  role: B.Sc. in Industrial Engineering
+  minor: Minor in Economics
+  affiliation: Sharif University of Technology
+  affiliation_url: https://en.sharif.edu/
+  location: Tehran, Iran
+  # avatar: /assets/img/profile.jpg
+  cv: /files/KimiaZiaei_CV.pdf
+  github: KimiaZz
+  # linkedin: your-linkedin-username
+  # google_scholar: https://scholar.google.com/citations?user=XXXX
+  # orcid: 0000-0000-0000-0000
+
+navigation:
+  - title: About
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: CV
+    url: /files/KimiaZiaei_CV.pdf
+
+# Build settings (GitHub Pages builds this natively)
+theme: null  # no gem theme; layouts live in this repo
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - assets/fonts/README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

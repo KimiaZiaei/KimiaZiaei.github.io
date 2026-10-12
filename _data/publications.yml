@@ -1,0 +1,11 @@
+# Each entry: title, authors (your name is bolded automatically), year, status, and optional links.
+# Status examples: In Preparation, Under Review at <Journal>, Accepted at <Conference>.
+# Links (all optional): paper, arxiv, ssrn, code, slides
+# While this list is empty, the site shows "TBA".
+#
+# - title: "Paper title"
+#   authors: [K. Ziaei, A. Coauthor]
+#   year: 2026
+#   status: In Preparation
+
+[]
