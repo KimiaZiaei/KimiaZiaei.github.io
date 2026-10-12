@@ -1,4 +1,5 @@
 ---
+title: About
 heading: About Me
 permalink: /
 ---
